@@ -90,7 +90,7 @@ var doodleMusic = new function(){
     }
   }
   
-  Midi.fromUrl("https://cdn.glitch.com/13d5d296-8e8b-4b85-a837-48c9d3f9d588%2Fhmk.mid?1556581347330").then((m)=>{
+  Midi.fromUrl("./files/hmk.mid").then((m)=>{
     useMIDI(m);
   });
 

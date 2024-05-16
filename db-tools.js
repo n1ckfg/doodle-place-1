@@ -5,7 +5,7 @@
 const requireFromUrl = require('require-from-url/sync');
 const newUUID = require('uuid/v1');
 const CONST = require('./public/constants');
-const Okb = requireFromUrl("https://okb.glitch.me/Okb-min.js");
+const Okb = require('./public/Okb-min');
 const doodleSerial = require('./public/doodle-serial');
 const sharedTools = require('./public/shared-tools');
 
